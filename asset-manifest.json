@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Crypto-News%20/static/css/main.0678c9a1.css",
+    "main.js": "/Crypto-News%20/static/js/main.b98cd27f.js",
+    "static/media/Sun.svg": "/Crypto-News%20/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/Crypto-News%20/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/Crypto-News%20/index.html",
+    "main.0678c9a1.css.map": "/Crypto-News%20/static/css/main.0678c9a1.css.map",
+    "main.b98cd27f.js.map": "/Crypto-News%20/static/js/main.b98cd27f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0678c9a1.css",
+    "static/js/main.b98cd27f.js"
+  ]
+}

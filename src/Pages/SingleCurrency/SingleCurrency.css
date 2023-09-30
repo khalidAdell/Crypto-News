@@ -1,0 +1,106 @@
+.singleCoin {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0 5rem 2rem;
+}
+.singleCoinHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.singleCoinHeader img {
+  width: 5rem;
+}
+.singleCoinHeader h3 {
+  font-size: 2rem;
+}
+.singleInfo {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.singleInfo > div {
+  border: 2px solid gray;
+  padding: 1rem;
+}
+.statHeader {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+.statHeader h2 {
+  font-size: 1.3rem;
+  margin: 0 0 6px;
+}
+.statHeader p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-gray);
+}
+.statContainer {
+  min-width: 15rem;
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--text-gray);
+  padding: 6px 3px;
+}
+.statContainer:hover {
+  background-color: var(--bg-gray);
+}
+.statContainer span {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+.singleCoin a {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+}
+
+.coinLinks {
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .singleInfo {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .singleInfo > div {
+    width: 100%;
+  }
+  .singleCoin {
+    padding: 0 1rem 2rem;
+  }
+}
+@media (max-width: 560px) {
+  .singleCoinHeader img {
+    width: 4rem;
+  }
+  .singleCoinHeader h3 {
+    font-size: 1.4rem;
+  }
+  .statHeader h2 {
+    font-size: 1rem;
+  }
+  .statHeader p {
+    font-size: 0.8rem;
+  }
+  .statContainer {
+    font-size: 0.9rem;
+  }
+  .statContainer span {
+    font-size: 1rem;
+  }
+  .singleCoin a {
+    font-size: 10px;
+  }
+}

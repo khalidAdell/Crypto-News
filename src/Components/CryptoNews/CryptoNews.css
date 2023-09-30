@@ -1,0 +1,39 @@
+.CryptoNews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  text-align: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.newCard {
+  background-color: var(--bg-gray);
+  text-align: left;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.newCard a .newsImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.newCard a .newsImageContainer h3 {
+  font-size: 1.2rem;
+}
+.newCard a .newsImageContainer img {
+  max-width: 8rem;
+  border-radius: 50%;
+}
+
+.newCard a p {
+  font-size: 1rem;
+  color: var(--text-gray);
+  margin: 10px 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 552px) {
+  .CryptoNews {
+    grid-template-columns: 1fr;
+  }
+}

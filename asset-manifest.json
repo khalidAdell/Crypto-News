@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Crypto-News%20/static/css/main.0678c9a1.css",
-    "main.js": "/Crypto-News%20/static/js/main.7afbaad0.js",
-    "static/media/Sun.svg": "/Crypto-News%20/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
-    "static/media/Moon.svg": "/Crypto-News%20/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
-    "index.html": "/Crypto-News%20/index.html",
-    "main.0678c9a1.css.map": "/Crypto-News%20/static/css/main.0678c9a1.css.map",
-    "main.7afbaad0.js.map": "/Crypto-News%20/static/js/main.7afbaad0.js.map"
+    "main.css": "/Crypto-News/static/css/main.0678c9a1.css",
+    "main.js": "/Crypto-News/static/js/main.0092724d.js",
+    "static/media/Sun.svg": "/Crypto-News/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/Crypto-News/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/Crypto-News/index.html",
+    "main.0678c9a1.css.map": "/Crypto-News/static/css/main.0678c9a1.css.map",
+    "main.0092724d.js.map": "/Crypto-News/static/js/main.0092724d.js.map"
   },
   "entrypoints": [
     "static/css/main.0678c9a1.css",
-    "static/js/main.7afbaad0.js"
+    "static/js/main.0092724d.js"
   ]
 }

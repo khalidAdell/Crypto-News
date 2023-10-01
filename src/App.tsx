@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { Currency, Home, News, SingleCurrency } from "./Pages";
 import Root from "./Components/Root";
-import Error from "./Pages/Error/Error";
+import Error from "./Pages/Error/Error.js";
 
 function App() {
   const router = createBrowserRouter(

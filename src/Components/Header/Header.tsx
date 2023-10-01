@@ -3,7 +3,7 @@ import { HeaderData } from "../../data/dataLink";
 import "./Header.css";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import DarkMode from "../DarkMode/DarkMode";
+import DarkMode from "../DarkMode/DarkMode.js";
 
 const Header = () => {
   let [toggleNav, setToggleNav] = useState(true);
